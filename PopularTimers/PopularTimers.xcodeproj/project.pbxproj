@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		C84103551ED5EB07007D60F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84103541ED5EB07007D60F7 /* AppDelegate.swift */; };
-		C84103571ED5EB07007D60F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84103561ED5EB07007D60F7 /* ViewController.swift */; };
+		C84103571ED5EB07007D60F7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84103561ED5EB07007D60F7 /* MainViewController.swift */; };
 		C841035A1ED5EB07007D60F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C84103581ED5EB07007D60F7 /* Main.storyboard */; };
 		C841035D1ED5EB07007D60F7 /* PopularTimers.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C841035B1ED5EB07007D60F7 /* PopularTimers.xcdatamodeld */; };
 		C841035F1ED5EB08007D60F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C841035E1ED5EB08007D60F7 /* Assets.xcassets */; };
 		C84103621ED5EB08007D60F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C84103601ED5EB08007D60F7 /* LaunchScreen.storyboard */; };
 		C841036D1ED5EB08007D60F7 /* PopularTimersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C841036C1ED5EB08007D60F7 /* PopularTimersTests.swift */; };
 		C84103781ED5EB08007D60F7 /* PopularTimersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84103771ED5EB08007D60F7 /* PopularTimersUITests.swift */; };
+		C84103861ED5F2A8007D60F7 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84103851ED5F2A8007D60F7 /* TimerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +38,7 @@
 /* Begin PBXFileReference section */
 		C84103511ED5EB07007D60F7 /* PopularTimers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopularTimers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C84103541ED5EB07007D60F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C84103561ED5EB07007D60F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C84103561ED5EB07007D60F7 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		C84103591ED5EB07007D60F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C841035C1ED5EB07007D60F7 /* PopularTimers.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PopularTimers.xcdatamodel; sourceTree = "<group>"; };
 		C841035E1ED5EB08007D60F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		C84103731ED5EB08007D60F7 /* PopularTimersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopularTimersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C84103771ED5EB08007D60F7 /* PopularTimersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularTimersUITests.swift; sourceTree = "<group>"; };
 		C84103791ED5EB08007D60F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C84103851ED5F2A8007D60F7 /* TimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +102,9 @@
 			isa = PBXGroup;
 			children = (
 				C84103541ED5EB07007D60F7 /* AppDelegate.swift */,
-				C84103561ED5EB07007D60F7 /* ViewController.swift */,
 				C84103581ED5EB07007D60F7 /* Main.storyboard */,
+				C84103561ED5EB07007D60F7 /* MainViewController.swift */,
+				C84103851ED5F2A8007D60F7 /* TimerViewController.swift */,
 				C841035E1ED5EB08007D60F7 /* Assets.xcassets */,
 				C84103601ED5EB08007D60F7 /* LaunchScreen.storyboard */,
 				C84103631ED5EB08007D60F7 /* Info.plist */,
@@ -265,8 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C84103861ED5F2A8007D60F7 /* TimerViewController.swift in Sources */,
 				C841035D1ED5EB07007D60F7 /* PopularTimers.xcdatamodeld in Sources */,
-				C84103571ED5EB07007D60F7 /* ViewController.swift in Sources */,
+				C84103571ED5EB07007D60F7 /* MainViewController.swift in Sources */,
 				C84103551ED5EB07007D60F7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
